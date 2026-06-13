@@ -2,6 +2,11 @@
 
 Ref: [SCUM-RCON Server releases](https://github.com/herbie96x/SCUM-RCON/releases)
 
+## Use  No folder or .ini file required for this command. 
+
+```powershell
+.\rcon.exe --host "127.0.0.1" --port 9010 --password "passwd"  -commands "ListPlayers;ListSpawnedVehicles;CheckServerTime"
+```
 ## Config
 
 Config file:
